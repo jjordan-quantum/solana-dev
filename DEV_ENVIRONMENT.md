@@ -50,7 +50,7 @@ If rust and solana-cli are already installed, skip the first 2 steps.
 8. Deploy program to devnet:
 
     ```
-    solana program deploy dist/program/{program_name}.so
+    npm run deploy:program
     ```
    Output will include program ID.  Search for this on the devnet block-explorer (https://explorer.solana.com/?cluster=devnet) to confirm deployment details.
 
